@@ -8,6 +8,7 @@ baseurl: "/jufo_deadline"
 # twitter_hashtag: machinelearning
 github_username: BISG-Robotics
 github_repo: BISG-Robotics/jufo_deadline
+repository: BISG-Robotics/jufo_deadline
 
 markdown: kramdown
 ga_id:
