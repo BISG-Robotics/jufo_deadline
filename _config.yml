@@ -3,7 +3,7 @@ description: Countdowns to top CV/ML/Robotics/AI conference deadlines
 author: Bike
 
 # domain: "aideadlin.es"
-baseurl: "https://bisg-robotics.github.io/jufo_deadline"
+baseurl: "https://bisg-robotics.github.io"
 
 # twitter_hashtag: machinelearning
 # github_username: paperswithcode
