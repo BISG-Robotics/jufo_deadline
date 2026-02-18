@@ -18,7 +18,19 @@ function update_filtering(data) {
   var page_url = "{{site.baseurl}}";
   store.set("{{site.domain}}-subs", data.subs);
 
-  $(".confItem").hide();
+  // 1. 确保每个会议条目按是否过期分别在 coming_confs 和 past_confs 中
+  $(".ConfItem").each(function() {
+    var $item = $(this);
+    var diff = parseInt($item.attr('diff')) || 0;
+    if ($item.hasClass("past") || diff > 0) {
+      $("#past_confs").append($item);
+    } else {
+      $("#coming_confs").append($item);
+    }
+  });
+
+  // 2. 类别过滤
+  $(".ConfItem").hide();
   for (const j in data.all_subs) {
     const s = data.all_subs[j];
     const identifier = "." + s + "-conf";

@@ -95,6 +95,11 @@
             </div>
             <div class="row">
               <div class="col-12 col-sm-6">
+                {% if conf.full_name %}
+                  <div class="full_name">
+                      {{conf.full_name}}
+                  </div>
+                {% endif %}
                 <div class="meta">
                   <span class="conf-date">{{conf.date}}.</span>
                   <span class="conf-place">
@@ -175,7 +180,7 @@
           $('#{{conf.id}} .deadline-time').html("TBA");
         {% else %}
           // adjust date according to deadline timezone
-          var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "America/New_York" {% endif %};
+          var timezone = {% if conf.timezone %}"{{conf.timezone}}" {% else %} "Europe/Helsinki" {% endif %};
           var confDate = moment.tz("{{conf.deadline}}", timezone);
 
           // render countdown timer

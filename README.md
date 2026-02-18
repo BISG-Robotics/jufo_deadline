@@ -27,8 +27,8 @@ To add or update a deadline:
       link: link-to-website.com
       deadline: YYYY-MM-DD HH:MM:SS
       abstract_deadline: YYYY-MM-DD HH:MM:SS
-      timezone: Asia/Seoul
-      place: Incheon, South Korea
+      timezone: Europe/Harsinki
+      place: Oulu, Finland
       date: September, 18-22, 2022
       start: YYYY-MM-DD
       end: YYYY-MM-DD
