@@ -14,9 +14,7 @@
   hindex: 38
   jufo: 2
   acceptance_rate: 31.2% in 2023 (243 out of 778), 28.0% in 2024 (200 out of 715)
-  sub:
-  - ML
-  - L2
+  sub: [ML, L2]
 
 - title: MICCAI
   year: 2026
@@ -46,9 +44,7 @@
   hindex: 80
   jufo: 1
   acceptance_rate: 47.9% in 2022 (1716 out of 3579)
-  sub:
-  - RO
-  - L1
+  sub: ['RO', 'L1']
 
 - title: ECCV
   year: 2026
@@ -182,9 +178,7 @@
   start: 2023-10-02
   end: 2023-10-06
   hindex: 239
-  sub:
-  - CV
-  - L3
+  sub: ['CV', 'L3']
   note: Supplementary deadline on Mar 15, 2023. More info <a href='http://iccv2023.thecvf.com/home'>here</a>.
 
 - title: 3DV
