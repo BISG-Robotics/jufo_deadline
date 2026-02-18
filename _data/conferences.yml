@@ -168,7 +168,7 @@
   start: 2022-11-30
   end: 2022-12-03
   hindex: 124.0
-  sub: DM
+  sub: ML
   note: Paper submissions limited to ten (10) pages, in the IEEE 2-column format |
     <a href="https://icdm22.cse.usf.edu/key-dates.html"> Key Dates</a> | <a href="https://icdm22.cse.usf.edu/calls/Papers.html">Call
     for Papers </a>
@@ -244,7 +244,7 @@
   place: Tokyo, Japan
   date: December, 3-6, 2024
   sub: CG
-  note: null
+  # note: 
 
 - title: CoRL
   year: 2024

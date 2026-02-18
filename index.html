@@ -156,7 +156,6 @@
         var colors = ['#341f97', '#ee5253', '#2e86de',
                       '#ff9f43', '#10ac84', '#222f3e']
 
-        
         {% include load_data.js %}
         {% include utils.js %}
         {% include multiselect_handler.js %}
@@ -173,7 +172,8 @@
 
         {% for conf in site.data.conferences %}
         {% for sub in conf.sub %}
-        $('#{{conf.id}} .{{sub}}-tag').html(sub2name["{{sub}}"].toLocaleLowerCase());
+        // $('#{{conf.id}} .{{sub}}-tag').html(sub2name["{{sub}}"].toLocaleLowerCase()); 
+        $('#{{conf.id}} .{{sub}}-tag').html((sub2name["{{sub}}"] || "{{sub}}").toLocaleLowerCase()); // fixing bugs by Bike
         {% endfor %}
         {% if conf.deadline == "TBA" %}
           $('#{{conf.id}} .timer').html("TBA");
