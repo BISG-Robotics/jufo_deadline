@@ -231,6 +231,11 @@
           return $(b).attr('diff') - $(a).attr('diff');
         }).appendTo($("#coming_confs"));
 
+        // Sorting Past Events. fixing bugs by Bike.
+        $("#past_confs .ConfItem").sort(function (a, b) {
+          return $(a).attr('diff') - $(b).attr('diff'); 
+        }).appendTo($("#past_confs"));
+
         $("#sort-order-checkbox input").on("click", function() {
           if ($("#sort-order-checkbox input").is(":checked")) {
             $("#past_confs .ConfItem").sort(function (a, b) {

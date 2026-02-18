@@ -95,6 +95,13 @@ def query_yes_no(question, default="no"):
                              "(or 'y' or 'n').\n")
 
 
+# Sorting TBA by year
+def get_tba_year(item):
+    try:
+        return int(item.get('year', 9999)) 
+    except (ValueError, TypeError):
+        return 9999
+
 # Sort:
 with open("../_data/conferences.yml", 'r', encoding='utf-8') as stream:
     try:
@@ -105,6 +112,9 @@ with open("../_data/conferences.yml", 'r', encoding='utf-8') as stream:
         print("\n\n")
         conf = [x for x in data if x['deadline'].lower() not in tba_words]
         tba = [x for x in data if x['deadline'].lower() in tba_words]
+
+        # Sort TBA by year, with missing or invalid years at the end: fixing by Bike.
+        tba.sort(key=get_tba_year)
 
         # just sort:
         conf.sort(key=lambda x: pytz.utc.normalize(datetime.datetime.strptime(x['deadline'], dateformat).replace(tzinfo=pytz.timezone(x['timezone'].replace('UTC+', 'Etc/GMT-').replace('UTC-', 'Etc/GMT+')))))
