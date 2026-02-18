@@ -23,3 +23,30 @@
 <script type="text/javascript" src="{{ "/static/js/store.min.js" | prepend:site.baseurl }}"></script>
 <script type="text/javascript" src="{{ "/static/js/ouical.min.js" | prepend:site.baseurl }}"></script>
 <script type="text/javascript" src="{{ "/static/js/bootstrap-multiselect.min.js" |prepend:site.baseurl }}"></script>
+
+<!-- fixing Bug: cannot show calendar.png correctly -->
+<script>
+  window.JEKYLL_BASE = "{{ site.baseurl }}";
+</script>
+
+<!-- after introducing ouical.min.js, add the following script. -->
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+  var base = window.JEKYLL_BASE || '';
+  // fixing <img> tag with src containing 'calendar.png' but not starting with base url.
+  document.querySelectorAll('img').forEach(function(img){
+    if(img.src && img.src.indexOf('calendar.png') !== -1 && img.src.indexOf(base) === -1){
+      // extract the image name from the src and construct the new src with base url.
+      var name = img.src.split('/').pop();
+      img.src = base + '/static/img/' + name;
+    }
+  });
+  // fixing background-image
+  document.querySelectorAll('*').forEach(function(el){
+    var bg = window.getComputedStyle(el).backgroundImage;
+    if(bg && bg.indexOf('calendar.png') !== -1 && bg.indexOf(base) === -1){
+      el.style.backgroundImage = 'url(' + base + '/static/img/calendar.png)';
+    }
+  });
+});
+</script>

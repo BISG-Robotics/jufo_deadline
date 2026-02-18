@@ -2,7 +2,7 @@ title: AI Conference Deadlines (JUFO Levels)
 description: Countdowns to top CV/ML/Robotics/AI conference deadlines
 author: Bike
 
-# domain: "aideadlin.es"
+domain: "https://bisg-robotics.github.io/jufo_deadline"
 baseurl: ""
 
 # twitter_hashtag: machinelearning
