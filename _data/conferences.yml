@@ -34,6 +34,19 @@
   sub: CV
   note: Abstract deadline on 2026-02-12 23:59:00 UTC-8!
 
+- title: IEEE ITSC
+  full_name: IEEE International Conference on Intelligent Transportation Systems
+  year: 2026
+  id: itsc26
+  link: https://ieee-itsc.org/2026/
+  deadline: '2026-03-01 23:59:59'
+  timezone: UTC-12
+  place: Naples, Italy
+  date: "September 15\u201318, 2026"
+  start: 2026-09-15
+  end: 2026-09-18
+  sub: CV
+
 - title: IROS
   full_name: IEEE/RSJ International Conference on Intelligent Robots and Systems
   year: 2026
