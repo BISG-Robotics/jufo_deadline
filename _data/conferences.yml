@@ -108,6 +108,20 @@
   - L3
   note: Abstract deadline on 2026-03-24 11:59:59 UTC-12!
 
+- title: CoRL
+  year: 2026
+  id: corl26
+  link: https://www.corl.org/
+  deadline: '2026-05-28 23:59:59'
+  abstract_deadline: '2026-05-25 23:59:59'
+  timezone: UTC-12
+  place: Austin, Texas, US
+  date: November 9-12, 2026
+  start: 2026-11-09
+  end: 2026-11-12
+  sub: RO
+  note: Abstract submission deadline on May 25, 2026 (11:59PM, AoE).
+
 - title: BMVC
   full_name: British Machine Vision Conference
   year: 2026
@@ -141,222 +155,46 @@
   sub: CV
   note: Paper registration deadline is July 3, 2026!
 
-- title: ICME
-  full_name: IEEE International Conference on Multimedia and Expo
-  year: 2021
-  id: icme21
-  link: https://2021.ieeeicme.org/
-  deadline: '2020-11-29 23:59:59'
-  timezone: America/Los_Angeles
-  place: Shenzhen, China
-  date: July 5-9, 2021
-  start: 2021-07-05
-  end: 2021-07-09
-  paperslink: https://2021.ieeeicme.org/conf_oral
-  hindex: 30
-  sub: CV
-
-- title: ICDM
-  full_name: IEEE International Conference on Data Mining (ICDM)
-  year: 2022
-  id: icdm22
-  link: https://icdm22.cse.usf.edu/
-  deadline: '2022-06-10 23:59:00'
-  timezone: America/New_York
-  place: Orlando, Florida, USA
-  date: November 30 - December 3, 2022
-  start: 2022-11-30
-  end: 2022-12-03
-  hindex: 124.0
-  sub: ML
-  note: Paper submissions limited to ten (10) pages, in the IEEE 2-column format |
-    <a href="https://icdm22.cse.usf.edu/key-dates.html"> Key Dates</a> | <a href="https://icdm22.cse.usf.edu/calls/Papers.html">Call
-    for Papers </a>
-
-- title: IJCAI
-  full_name: International Joint Conference on Artificial Intelligence
-  year: 2024
-  id: ijcai24
-  link: https://ijcai24.org/
-  deadline: '2024-01-17 23:59:59'
-  abstract_deadline: '2024-01-10 23:59:59'
+- title: WACV
+  year: 2026
+  id: wacv26
+  full_name: IEEE/CVF Winter Conference on Applications of Computer Vision
+  link: https://wacv.thecvf.com/
+  deadline: '2025-07-18 23:59:59'
+  abstract_deadline: '2025-07-11 23:59:59'
   timezone: UTC-12
-  place: Jeju, South Korea
-  date: August 03-09, 2024
-  start: 2024-08-03
-  end: 2024-08-09
-  hindex: 133
-  sub: ML
-  note: Mandatory abstract deadline on January 10, 2024 and optional supplementary
-    material deadline on January 24, 2024. More info <a href='https://ijcai24.org/'>here</a>.
-
-- title: SIGGRAPH
-  full_name: SIGGRAPH 2024
-  year: 2024
-  id: siggraph24
-  link: https://s2024.siggraph.org/
-  deadline: '2024-01-24 22:00:00'
-  abstract_deadline: '2024-01-23 22:00:00'
-  timezone: GMT
-  place: Denver, USA
-  date: July 28 - August 1, 2024
-  start: 2024-07-28
-  end: 2024-08-01
-  sub: CG
-  note: Mandatory abstract deadline on Jan 23, 2024. More info <a href='https://s2024.siggraph.org/program/technical-papers/'>here</a>.
-
-- title: ICML
-  full_name: International Conference on Machine Learning
-  year: 2024
-  id: icml24
-  link: https://icml.cc/Conferences/2024
-  deadline: '2024-02-01 23:59:59'
-  timezone: UTC-12
-  place: Vienna, Austria
-  date: July 21-27, 2024
-  start: 2024-07-21
-  end: 2024-07-27
-  hindex: 254
-  sub: ML
-
-- title: ECAI
-  full_name: European Conference on Artificial Intelligence
-  year: 2024
-  id: ecai24
-  link: https://www.ecai2024.eu/
-  deadline: '2024-04-25 23:59:59'
-  abstract_deadline: '2024-04-19 23:59:59'
-  timezone: UTC-12
-  place: Santiago de Compostela, Spain
-  date: October 19-24, 2024
-  start: 2024-10-19
-  end: 2024-10-24
-  sub: ML
-  note: Mandatory abstract deadline on April 19, 2024. More info <a href='https://www.ecai2024.eu/calls/main-track'>here</a>.
-
-- title: SIGGRAPH Asia
-  full_name: SIGGRAPH ASIA 2024
-  year: 2024
-  id: siggraphasia24
-  link: https://asia.siggraph.org/2024/
-  deadline: '2024-05-19 23:59:00'
-  timezone: UTC-12
-  place: Tokyo, Japan
-  date: December, 3-6, 2024
-  sub: CG
-
-- title: CoRL
-  year: 2024
-  id: corl24
-  link: https://corl.org
-  deadline: '2024-06-06 23:59:00'
-  timezone: UTC-12
-  place: Munich, Germany
-  date: November 06-09, 2024
-  start: 2024-11-06
-  end: 2024-11-09
-  sub: RO
+  place: Tucson, Arizona
+  date: March 6 - March 10, 2026
+  start: 2026-03-06
+  end: 2026-03-10
+  sub:
+  - ML
+  - CV
+  - L1
+  jufo: 1
+  note: "First Round Paper Registration Deadline is\tJul 11, 2025 (UTC-12)."
 
 - title: AAAI
   full_name: AAAI Conference on Artificial Intelligence
-  year: 2025
-  id: aaai25
-  link: https://aaai.org/conference/aaai/aaai-25/
-  deadline: '2024-08-15 23:59:59'
-  abstract_deadline: '2024-08-07 23:59:59'
+  year: 2026
+  id: aaai26
+  link: https://aaai.org/conference/aaai/aaai-26/
+  deadline: '2025-08-01 23:59:59'
+  abstract_deadline: '2025-07-25 23:59:59'
   timezone: UTC-12
-  place: Philadelphia, USA
-  date: February 25 - March 04, 2025
-  start: 2025-02-25
-  end: 2025-03-04
-  hindex: 212
+  place: Sigapore
+  date: "January 20\u2013January 27, 2026"
+  start: 2026-01-20
+  end: 2026-01-27
   sub:
   - ML
   - RO
   - CV
   - CG
   - HCI
-  note: Mandatory abstract deadline on Aug 07, 2024, and supplementary material deadline
-    on Aug 19, 2024. More info <a href='https://aaai.org/conference/aaai/aaai-25/'>here</a>.
-
-- title: WACV
-  year: 2025
-  id: wacv25_2
-  full_name: IEEE/CVF Winter Conference on Applications of Computer Vision
-  link: https://wacv2025.thecvf.com/
-  deadline: '2024-09-09 23:59:59'
-  timezone: UTC-7
-  place: Tucson, Arizona
-  date: "Feb 28 \u2013 Mar 4, 2025"
-  start: 2025-2-28
-  end: 2025-3-4
-  hindex: 109
-  sub:
-  - ML
-  - CV
-  note: This is the second round of submissions. Summplementary material deadline
-    on Sep 11, 2024. More info <a href='https://wacv2025.thecvf.com/'>here</a>.
-
-- title: ICASSP
-  full_name: IEEE International Conference on Acoustics, Speech and Signal Processing
-  year: 2025
-  id: icassp25
-  link: https://2025.ieeeicassp.org/
-  deadline: '2024-09-09 23:59:59'
-  timezone: UTC-12
-  place: Hyderabad, India
-  date: April 6-11, 2025
-  start: 2025-04-6
-  end: 2025-04-11
-  sub: SP
-
-- title: CHI
-  full_name: ACM Conference on Human Factors in Computing Systems
-  year: 2024
-  id: chi24
-  link: https://chi2024.acm.org/
-  deadline: '2024-09-12 23:59:59'
-  timezone: UTC-12
-  place: Honolulu, Hawaii, USA
-  date: April 20-25, 2024
-  start: 2024-04-20
-  end: 2024-04-25
-  hindex: 120
-  sub: HCI
-
-- title: ICRA
-  full_name: IEEE International Conference on Robotics and Automation
-  year: 2025
-  id: icra25
-  link: https://2025.ieee-icra.org
-  deadline: '2024-09-15 23:59:59'
-  timezone: America/Los_Angeles
-  place: Atlanta, USA
-  date: May 19 - May 23, 2025
-  start: 2025-05-19
-  end: 2025-05-23
-  hindex: 119
-  sub: RO
-
-- title: ICLR
-  full_name: International Conference on Learning Representations
-  year: 2025
-  id: iclr25
-  link: https://iclr.cc/Conferences/2025/CallForPapers
-  deadline: '2024-10-01 23:59:59'
-  abstract_deadline: '2024-09-27 23:59:59'
-  timezone: UTC-12
-  place: Singapore
-  date: Apr 24-28, 2025
-  start: 2025-04-24
-  end: 2025-04-28
-  hindex: 304
-  sub:
-  - ML
-  - RO
-  - CV
-  - SP
-  note: Mandatory abstract deadline on September 27, 2024. More info <a href='https://iclr.cc/Conferences/2025/CallForPapers'>here</a>.
+  - L2
+  jufo: 2
+  note: Abstracts due at 11:59 PM UTC-12 on July 25, 2025.
 
 - title: 3DV
   full_name: International Conference on 3D Vision
@@ -372,24 +210,111 @@
   sub:
   - CV
   - L1
+  jufo: 1
+
+- title: ICASSP
+  full_name: IEEE International Conference on Acoustics, Speech and Signal Processing
+  year: 2026
+  id: icassp26
+  link: https://2026.ieeeicassp.org
+  deadline: '2025-09-09 23:59:59'
+  timezone: UTC-12
+  place: Barcelona, Spain
+  date: 4-8 May 2026
+  start: 2026-05-04
+  end: 2026-05-08
+  sub:
+  - SP
+  - L2
+  jufo: 2
+
+- title: ACM CHI
+  full_name: ACM Conference on Human Factors in Computing Systems
+  year: 2026
+  id: chi26
+  link: https://chi2026.acm.org/
+  deadline: '2025-09-11 23:59:59'
+  abstract_deadline: '2025-09-04 23:59:59'
+  timezone: UTC-12
+  place: Barcelona, Spain
+  date: "13\u201317 April, 2026"
+  start: 2026-04-13
+  end: 2026-04-17
+  sub: HCI
+  note: 2025-09-04 Abstract/Metadata Due (UTC-12).
+
+- title: ICRA
+  full_name: IEEE International Conference on Robotics and Automation
+  year: 2026
+  id: icra26
+  link: https://2026.ieee-icra.org
+  deadline: '2025-09-15 23:59:59'
+  timezone: America/Los_Angeles
+  place: Vienna, Austria
+  date: "1\u20135 June, 2026"
+  start: 2026-06-01
+  end: 2026-06-05
+  sub:
+  - RO
+  - L2
+  jufo: 2
+  note: The deadline for transfer of journal papers to ICRA 2026 is 31st December
+    2025.
+
+- title: ICLR
+  full_name: International Conference on Learning Representations
+  year: 2026
+  id: iclr26
+  link: https://iclr.cc
+  deadline: '2025-09-24 23:59:59'
+  abstract_deadline: '2025-09-19 23:59:59'
+  timezone: UTC-12
+  place: Rio de Janeiro, Brazil
+  date: April 23rd - 27th, 2026
+  start: 2026-04-23
+  end: 2026-04-27
+  sub:
+  - ML
+  - RO
+  - CV
+  - SP
+  - L1
+  jufo: 1
+  note: null
 
 - title: CVPR
   full_name: IEEE/CVF Conference on Computer Vision and Pattern Recognition
   year: 2026
   id: cvpr26
-  link: https://cvpr.thecvf.com/Conferences/2026
+  link: https://cvpr.thecvf.com
   deadline: '2025-11-13 00:00:00'
   abstract_deadline: '2025-11-07 00:00:00'
-  timezone: GMT
+  timezone: UTC-12
   place: Denver CO, Tennessee, USA
-  date: June 03-07, 2026
+  date: June 3-June 7, 2026
   start: 2026-06-03
   end: 2026-06-07
-  hindex: 389
   sub:
   - CV
   - L2
-  note: Mandatory paper registration deadline on November 07, 2025. More info <a href='https://cvpr.thecvf.com/Conferences/2026/CallForPapers'>here</a>.
+  jufo: 2
+  note: Mandatory paper registration deadline on November 07, 2025.
+
+- title: ICME
+  full_name: IEEE International Conference on Multimedia and Expo
+  year: 2026
+  id: icme26
+  link: https://2026.ieeeicme.org/
+  deadline: '2025-12-31 23:59:59'
+  timezone: UTC-12
+  place: Bangkok, Thailand
+  date: July 5-9, 2026
+  start: 2026-07-05
+  end: 2026-07-09
+  sub:
+  - CV
+  - L1
+  jufo: 1
 
 - title: ICPR
   full_name: International Conference on Pattern Recognition
@@ -405,6 +330,74 @@
   sub:
   - CV
   - L1
+  jufo: 1
+
+- title: IJCAI
+  full_name: International Joint Conference on Artificial Intelligence
+  year: 2026
+  id: ijcai26
+  link: https://2026.ijcai.org/
+  deadline: '2026-01-19 23:59:59'
+  abstract_deadline: '2026-01-12 23:59:59'
+  timezone: UTC-12
+  place: Bremen, Germany
+  date: August 15-21, 2026
+  start: 2026-08-15
+  end: 2026-08-21
+  sub:
+  - ML
+  - L3
+  jufo: 2
+  note: Mandatory abstract deadline on January 12, 2026 (UTC-12)!
+
+- title: ECAI
+  full_name: European Conference on Artificial Intelligence
+  year: 2026
+  id: ecai26
+  link: https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/
+  deadline: '2026-01-19 23:59:59'
+  abstract_deadline: '2026-01-12 23:59:59'
+  timezone: UTC-12
+  place: Bremen, Germany
+  date: August 15 to 21, 2026
+  start: 2026-08-15
+  end: 2026-08-21
+  sub: ML
+
+- title: ACM SIGGRAPH
+  full_name: ACM International Conference and Exhibition on Computer Graphics Interactive
+    Techniques
+  year: 2026
+  id: siggraph26
+  link: https://s2026.siggraph.org/
+  deadline: '2026-01-24 22:00:00'
+  abstract_deadline: '2026-01-23 22:00:00'
+  timezone: GMT
+  place: Los Angeles, USA
+  date: 19-23 July, 2026
+  start: 2026-07-19
+  end: 2026-07-23
+  sub:
+  - CG
+  - L2
+  jufo: 2
+
+- title: ICML
+  full_name: International Conference on Machine Learning
+  year: 2026
+  id: icml26
+  link: https://icml.cc/
+  deadline: '2026-01-28 23:59:59'
+  abstract_deadline: '2026-01-23 23:59:59'
+  timezone: UTC-12
+  place: Seoul, South Korea
+  date: July 6th - 11th, 2026
+  start: 2026-07-06
+  end: 2026-07-11
+  sub:
+  - ML
+  - L3
+  jufo: 3
 
 - title: RSS
   full_name: Robotics:Science and Systems
