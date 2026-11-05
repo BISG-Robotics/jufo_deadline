@@ -297,21 +297,21 @@
 
 - title: CVPR
   full_name: IEEE/CVF Conference on Computer Vision and Pattern Recognition
-  year: 2026
-  id: cvpr26
+  year: 2027
+  id: cvpr27
   link: https://cvpr.thecvf.com
-  deadline: '2025-11-13 00:00:00'
-  abstract_deadline: '2025-11-07 00:00:00'
+  deadline: '2026-11-10 00:00:00'
+  abstract_deadline: '2026-11-16 00:00:00'
   timezone: UTC-12
   place: Denver CO, Tennessee, USA
-  date: June 3-June 7, 2026
-  start: 2026-06-03
-  end: 2026-06-07
+  date: June 20-June 25, 2027
+  start: 2027-06-20
+  end: 2027-06-25
   sub:
   - CV
   - L2
   jufo: 2
-  note: Mandatory paper registration deadline on November 07, 2025.
+  note: Mandatory paper registration deadline on November 10, 2026.
 
 - title: ICME
   full_name: IEEE International Conference on Multimedia and Expo
